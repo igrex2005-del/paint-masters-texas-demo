@@ -1,0 +1,166 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Paint Masters Texas | Website Redesign Concept</title>
+<meta name="description" content="Independent website redesign concept for Paint Masters Texas.">
+<style>
+*{margin:0;padding:0;box-sizing:border-box}
+html{scroll-behavior:smooth}
+body{font-family:Arial,sans-serif;color:#17243a;background:#fff;line-height:1.6}
+:root{--navy:#10243e;--orange:#e87535;--light:#f4f6f8}
+.container{width:min(1120px,90%);margin:auto}
+.demo{background:#fff1e8;color:#9b4920;text-align:center;padding:9px;font-size:12px;font-weight:bold}
+header{background:#fff;position:sticky;top:0;z-index:10;border-bottom:1px solid #eee}
+nav{min-height:76px;display:flex;align-items:center;justify-content:space-between;gap:20px}
+.logo{font-size:21px;font-weight:900;color:var(--navy);line-height:1.1}
+.logo span{color:var(--orange)}
+nav a{text-decoration:none;color:var(--navy);font-size:14px;font-weight:bold;margin-left:22px}
+.hero{background:linear-gradient(90deg,rgba(9,27,49,.88),rgba(9,27,49,.45)),url('https://images.unsplash.com/photo-1562259949-e8e7689d7828?auto=format&fit=crop&w=1800&q=85') center/cover;color:white;padding:115px 0}
+.hero-content{max-width:650px}
+.eyebrow{color:#ffb17e;font-weight:bold;letter-spacing:2px;font-size:13px}
+h1{font-size:clamp(38px,6vw,68px);line-height:1.08;margin:20px 0}
+.hero p{font-size:18px;color:#e5eaf0;max-width:520px}
+.button{display:inline-block;background:var(--orange);color:white;text-decoration:none;padding:15px 25px;border-radius:5px;font-weight:bold;margin-top:28px}
+section{padding:85px 0}
+.section-heading{text-align:center;max-width:650px;margin:0 auto 42px}
+.section-heading h2{font-size:clamp(29px,4vw,42px);color:var(--navy);line-height:1.2;margin:10px 0}
+.section-heading p{color:#687486}
+.services{background:var(--light)}
+.cards{display:grid;grid-template-columns:repeat(3,1fr);gap:22px}
+.card{background:#fff;border-radius:12px;overflow:hidden;box-shadow:0 8px 25px rgba(16,36,62,.07)}
+.card img{width:100%;height:220px;object-fit:cover;display:block}
+.card-content{padding:24px}
+.card h3{color:var(--navy);font-size:21px;margin-bottom:8px}
+.card p{color:#687486;font-size:15px}
+.about-grid{display:grid;grid-template-columns:1fr 1fr;gap:55px;align-items:center}
+.about-grid img{width:100%;height:390px;object-fit:cover;border-radius:12px}
+.about-grid h2{font-size:clamp(30px,4vw,42px);line-height:1.2;color:var(--navy);margin:12px 0}
+.about-grid p{color:#687486;margin-top:12px}
+.gallery{background:var(--light)}
+.gallery-grid{display:grid;grid-template-columns:repeat(3,1fr);gap:16px}
+.gallery-grid img{width:100%;height:240px;object-fit:cover;border-radius:10px}
+.cta{background:var(--navy);color:white;text-align:center}
+.cta h2{font-size:clamp(30px,4vw,44px);line-height:1.2}
+.cta p{color:#d5dce6;margin-top:12px}
+footer{background:#091a2d;color:#d4dbe4;padding:30px 0;text-align:center;font-size:13px}
+footer strong{color:white}
+@media(max-width:760px){
+ nav{padding:16px 0;align-items:flex-start;flex-direction:column}
+ nav a{margin:0 15px 0 0;font-size:12px}
+ .hero{padding:85px 0;background-position:60% center}
+ .hero p{font-size:16px}
+ section{padding:65px 0}
+ .cards{grid-template-columns:1fr}
+ .card img{height:230px}
+ .about-grid{grid-template-columns:1fr;gap:28px}
+ .about-grid img{height:270px}
+ .gallery-grid{grid-template-columns:1fr 1fr}
+ .gallery-grid img{height:170px}
+}
+@media(max-width:400px){
+ .gallery-grid{grid-template-columns:1fr}
+ .gallery-grid img{height:220px}
+}
+</style>
+</head>
+<body>
+
+<div class="demo">INDEPENDENT REDESIGN CONCEPT · NOT AFFILIATED WITH PAINT MASTERS TEXAS</div>
+
+<header>
+ <div class="container">
+  <nav>
+   <div class="logo">PAINT MASTERS <span>TEXAS.</span></div>
+   <div>
+    <a href="#services">Services</a>
+    <a href="#about">About</a>
+    <a href="#gallery">Projects</a>
+    <a href="#contact">Contact</a>
+   </div>
+  </nav>
+ </div>
+</header>
+
+<main>
+<section class="hero">
+ <div class="container hero-content">
+  <div class="eyebrow">INDEPENDENT PAINTING WEBSITE CONCEPT</div>
+  <h1>A fresh coat.<br>A whole new feeling.</h1>
+  <p>Thoughtful painting solutions for homes and businesses. Explore a cleaner, more modern way to present painting services.</p>
+  <a class="button" href="#contact">EXPLORE THE CONCEPT →</a>
+ </div>
+</section>
+
+<section class="services" id="services">
+ <div class="container">
+  <div class="section-heading">
+   <div class="eyebrow">WHAT WE DO</div>
+   <h2>Painting services made simple.</h2>
+   <p>A clean presentation of the painting services offered by the business.</p>
+  </div>
+  <div class="cards">
+   <article class="card">
+    <img src="https://images.unsplash.com/photo-1562259949-e8e7689d7828?auto=format&fit=crop&w=800&q=80" alt="Interior painting project">
+    <div class="card-content"><h3>Interior Painting</h3><p>Give interior spaces a refreshed look with carefully presented painting solutions.</p></div>
+   </article>
+   <article class="card">
+    <img src="https://images.unsplash.com/photo-1600596542815-ffad4c1539a9?auto=format&fit=crop&w=800&q=80" alt="Exterior home">
+    <div class="card-content"><h3>Exterior Painting</h3><p>Refresh the appearance of your property's exterior with a clean new finish.</p></div>
+   </article>
+   <article class="card">
+    <img src="https://images.unsplash.com/photo-1600607687939-ce8a6c25118c?auto=format&fit=crop&w=800&q=80" alt="Modern commercial interior">
+    <div class="card-content"><h3>Commercial Painting</h3><p>Professional painting presentation for offices and commercial spaces.</p></div>
+   </article>
+  </div>
+ </div>
+</section>
+
+<section id="about">
+ <div class="container about-grid">
+  <img src="https://images.unsplash.com/photo-1503387762-592deb58ef4e?auto=format&fit=crop&w=1000&q=85" alt="Modern building interior">
+  <div>
+   <div class="eyebrow">A BETTER FIRST IMPRESSION</div>
+   <h2>Quality begins with attention to detail.</h2>
+   <p>This independent concept gives visitors a clearer way to explore painting services, understand the business and discover its work.</p>
+   <a class="button" href="#gallery">VIEW PROJECT GALLERY →</a>
+  </div>
+ </div>
+</section>
+
+<section class="gallery" id="gallery">
+ <div class="container">
+  <div class="section-heading">
+   <div class="eyebrow">OUR INSPIRATION</div>
+   <h2>A look at beautiful spaces.</h2>
+   <p>Example photography used to demonstrate a modern painting portfolio layout.</p>
+  </div>
+  <div class="gallery-grid">
+   <img src="https://images.unsplash.com/photo-1600210492486-724fe5c67fb0?auto=format&fit=crop&w=700&q=80" alt="Modern living room">
+   <img src="https://images.unsplash.com/photo-1600607687920-4e2a09cf159d?auto=format&fit=crop&w=700&q=80" alt="Modern home interior">
+   <img src="https://images.unsplash.com/photo-1600566753086-00f18fb6b3ea?auto=format&fit=crop&w=700&q=80" alt="Bright interior">
+  </div>
+ </div>
+</section>
+
+<section class="cta" id="contact">
+ <div class="container">
+  <div class="eyebrow">LET'S CONNECT</div>
+  <h2>Thinking about a fresh new look?</h2>
+  <p>This is a visual redesign concept. The contact section is not connected to the actual business.</p>
+  <a class="button" href="https://paintmasterstexas.com/">VISIT ORIGINAL WEBSITE →</a>
+ </div>
+</section>
+</main>
+
+<footer>
+ <div class="container">
+  <strong>PAINT MASTERS TEXAS · INDEPENDENT WEBSITE CONCEPT</strong>
+  <p>Designed as a concept project by Webora Studio.</p>
+ </div>
+</footer>
+
+</body>
+</html>
